@@ -14,6 +14,18 @@ function myName(){
 
 console.log(myName()());
 
+// STRETCH IIFE - Immediately Invoked Function Expression 
+// test
+
+function yourName(){
+  let name = 'Josemaria';
+  return (function(){
+    return `${name} says Hello!!`;
+  })()
+}
+
+console.log(yourName());
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
